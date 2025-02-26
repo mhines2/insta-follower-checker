@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# Flask logs and caches
+instance/
+*.log
+
+# IDE/editor specific files
+.vscode/
+*.swp
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+
+# Uploads folder (if storing temporary files)
+uploads/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
