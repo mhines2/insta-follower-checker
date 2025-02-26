@@ -12,16 +12,16 @@ A **Flask + React** web app that helps you analyze your Instagram followers and 
 ## 📂 Project Structure
 ```
 📁 insta-follow-analyzer/
-├── server/          # Flask API backend
-│   ├── server.py        # Main Flask application
+├── server/               # Flask API backend
+│   ├── server.py         # Main Flask application
 │   ├── requirements.txt  # Python dependencies
-│   └── uploads/      # Folder for uploaded HTML files
-├── client/         # React frontend
-│   ├── src/          # React source files
-│   ├── public/       # Public assets
-│   ├── package.json  # Frontend dependencies
-│   └── index.js      # React entry point
-└── README.md         # Project documentation
+│   └── uploads/          # Folder for uploaded HTML files
+├── client/               # React frontend
+│   ├── src/              # React source files
+│   ├── public/           # Public assets
+│   ├── package.json      # Frontend dependencies
+│   └── index.js          # React entry point
+└── README.md             # Project documentation
 ```
 
 ## 🛠 Installation & Setup
