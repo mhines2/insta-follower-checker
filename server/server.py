@@ -37,6 +37,9 @@ def save_uploaded_file(uploaded_file, filename):
 
 @app.route('/upload', methods=['POST']) # POST request to upload file
 def upload_files():
+    """
+    Uploads followers.html and following.html files and returns a list of users who are not following back.
+    """
     # Check if POST request has file parts
     if 'followers' not in request.files or 'following' not in request.files: 
         return jsonify({"error": "Both followers.html and following.html must be uploaded."}), 400
@@ -58,5 +61,3 @@ def upload_files():
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=5001) # run Flask server
-
-    
